@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t softinnov/gmailsmtp .
+docker build -t transactrx/gmailsmtp .
