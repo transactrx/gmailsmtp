@@ -11,4 +11,6 @@ RUN echo "postfix postfix/main_mailer_type string 'Internet Site'" | debconf-set
 
 ADD run-smtp.sh /run-smtp.sh
 
+EXPOSE 25
+
 CMD /run-smtp.sh
